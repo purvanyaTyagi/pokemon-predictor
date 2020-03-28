@@ -1,6 +1,7 @@
 from keras.models import Sequential
 from keras.layers import Dense
 from preprocessing import preprocessing
+import tensorflow as tf
 
 features,labels = preprocessing.data()
 
